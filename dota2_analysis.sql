@@ -58,3 +58,5 @@ ORDER BY
     EXTRACT(YEAR FROM h.date);
 
 -- END --
+
+-- DASBOARD LINK TO TABLEAU -- https://public.tableau.com/app/profile/gabriel.mihailescu/viz/Dota2_Analysis/Dashboard1 
