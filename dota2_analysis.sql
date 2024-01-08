@@ -1,5 +1,7 @@
 -- Dota 2 Analysis as eSport --
 
+-- DASBOARD LINK TO TABLEAU -- https://public.tableau.com/app/profile/gabriel.mihailescu/viz/Dota2_Analysis/Dashboard1
+
 -- Dota 2 general view on game and earnings --
 
 SELECT
@@ -58,5 +60,3 @@ ORDER BY
     EXTRACT(YEAR FROM h.date);
 
 -- END --
-
--- DASBOARD LINK TO TABLEAU -- https://public.tableau.com/app/profile/gabriel.mihailescu/viz/Dota2_Analysis/Dashboard1 
