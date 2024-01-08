@@ -44,13 +44,17 @@ ORDER BY
 -- Dota 2 players per years --
 
 SELECT 
-	EXTRACT(YEAR FROM date) AS Year,
-	SUM(players) AS Total_Players
+    EXTRACT(YEAR FROM h.date) AS Year,
+    SUM(h.players) AS Total_Players
 FROM 
-	historical_esports_data
+    historical_esports_data h
+JOIN
+    general_esports_data g ON h.game_id = g.id
+WHERE
+    g.game = 'Dota 2'
 GROUP BY
-	EXTRACT(YEAR FROM date)
+    EXTRACT(YEAR FROM h.date)
 ORDER BY
-	EXTRACT(YEAR FROM date);
+    EXTRACT(YEAR FROM h.date);
 
 -- END --
