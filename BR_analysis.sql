@@ -1,3 +1,4 @@
+-- TABLEAU DASHBOARD LINK - https://public.tableau.com/app/profile/gabriel.mihailescu/viz/Battle_Royale_Analysis_3_Major_Game_and_General/Dashboard1
 
 -- General Information on Battle Royale Genre on eSports scene -- game/total players/total tournaments
 
