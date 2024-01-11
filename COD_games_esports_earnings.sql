@@ -1,3 +1,5 @@
+-- TABLEAU DASHBOARD LINK -- https://public.tableau.com/app/profile/gabriel.mihailescu/viz/Call_Of_Duty_franchies_overview_dashboard/Dashboard1?publish=yes
+
 -- Overview over years for Call of Duty franchise games in eSports --
 
 SELECT
