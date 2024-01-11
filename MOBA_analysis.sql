@@ -1,3 +1,5 @@
+-- LINK TO TABLEAU DASHBOARD - https://public.tableau.com/app/profile/gabriel.mihailescu/viz/MOBA_Genre_earningsplayers/Dashboard1?publish=yes - FULL SCREEN FOR BETTER PERFORMANCE
+
 -- General Stats on MOBA genre --
 
 SELECT
